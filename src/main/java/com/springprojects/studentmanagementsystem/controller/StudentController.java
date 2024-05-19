@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-@CrossOrigin("https://studentmanagementsystem-theta.vercel.app/")
+@CrossOrigin(origins = "https://studentmanagementsystem-theta.vercel.app/")
 @RestController
 @RequestMapping("/students")
 @RequiredArgsConstructor
